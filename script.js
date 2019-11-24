@@ -1,4 +1,4 @@
-var topBar = ["", "Who we are", "TBD", "TBD", "Tbd", "History", "What you can do", "Donate"]
+var topBar = ["", "Who we are", "Who we aren't", "Policies", "History", "What you can do", "Donate"]
 
 var main = function()
 {
