@@ -14,7 +14,7 @@
     
       text-shadow: 2px 2px 4px #000000;
     
-    
+      overflow: auto;
 }
 
 #body
@@ -140,12 +140,56 @@
 }
 
 
+#aWho
+{
+    
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    background-size: cover;
+    overflow: hidden;
+        
+}
 
 
 
+#aPic
+{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    background: url("about/trump.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+    animation-name: picMove;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
 
 
+#aText
+{
+    display: inline-block;
+    float: right;
 
+    width: 75%;
+    height: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15pt;
+    text-shadow: 2px 2px 4px #000000;
+    overflow: auto;
+    
+}
 
+@keyframes picMove {
+  0%   {background: url("about/trump.jpg") center center no-repeat; background-size: 100% 100%; }
+    25%   {background: url("about/newt.jpg") center center no-repeat; background-size: 100% 100%;}
+    50%   {background: url("about/mcconnel.jpg") center center no-repeat; background-size: 100% 100%;}
+    75%   {background: url("about/sara.jpg") center center no-repeat; background-size: 100% 100%;}
+     100%   {background: url("about/sean.jpg") center center no-repeat; background-size: 100% 100%;}
+  
+}
 
 
