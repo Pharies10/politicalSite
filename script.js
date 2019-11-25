@@ -34,7 +34,7 @@ var main = function()
         
     }).on("click", function(l){
         
-        location.href = "/" + l.call + "/" + l.call + ".html"
+        location.href =  l.call + "/" + l.call + ".html"
         
         
         
