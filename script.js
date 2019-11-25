@@ -48,16 +48,7 @@ var main = function()
         
     })
         
-        /*.attr("href", function(d){
-        
-        
-        return d + ".html"
-        
-        
-        
-    })
-    
-    */
+
     
     
     

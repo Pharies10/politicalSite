@@ -189,12 +189,12 @@
 
 @keyframes picMove 
 {
-    0%   {background: url("about/trump.jpg") center center no-repeat; background-size: 100% 100%; }
-    20%   {background: url("about/newt.jpg") center center no-repeat; background-size: 100% 100%;}
-    40%   {background: url("about/mcconnel.jpg") center center no-repeat; background-size: 100% 100%;}
-    60%   {background: url("about/sara.jpg") center center no-repeat; background-size: 100% 100%;}
-    80%   {background: url("about/sean.jpg") center center no-repeat; background-size: 100% 100%;}
-    100%   {background: url("about/trump.jpg") center center no-repeat; background-size: 100% 100%; }
+    0%   {background: url("not/trump.jpg") center center no-repeat; background-size: 100% 100%; }
+    20%   {background: url("not/newt.jpg") center center no-repeat; background-size: 100% 100%;}
+    40%   {background: url("not/mcconnel.jpg") center center no-repeat; background-size: 100% 100%;}
+    60%   {background: url("not/sara.jpg") center center no-repeat; background-size: 100% 100%;}
+    80%   {background: url("not/sean.jpg") center center no-repeat; background-size: 100% 100%;}
+    100%   {background: url("not/trump.jpg") center center no-repeat; background-size: 100% 100%; }
 }
 
 
