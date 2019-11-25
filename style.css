@@ -16,7 +16,14 @@
     
       overflow: auto;
 }
-
+a
+{
+    
+   cursor: pointer; 
+    
+    
+    
+}
 #body
 {
     
@@ -39,8 +46,7 @@
     width: 100%;
     background-color: indianred;
     font-size: 20pt;
-
-    
+      cursor: pointer; 
     
 }
 

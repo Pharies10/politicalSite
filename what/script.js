@@ -32,13 +32,6 @@ var main = function()
         return d.text
         
         
-    }).on("click", function(l){
-        
-        
-        console.log(location.href)
-        
-        
-        
     })
     
     
@@ -47,7 +40,7 @@ var main = function()
     d3.select("#title").on("click", function(){
         
         
-        location.href = "index.html"
+        location.href = "../index.html"
         
         
         

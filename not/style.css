@@ -39,7 +39,7 @@
     background-color: indianred;
     font-size: 20pt;
 
-    
+    cursor: pointer; 
     
 }
 
@@ -56,4 +56,11 @@
     
     
 }
-
+a
+{
+    
+   cursor: pointer; 
+    
+    
+    
+}
