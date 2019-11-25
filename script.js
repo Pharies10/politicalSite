@@ -1,4 +1,20 @@
-var topBar = ["", "Who we are", "Who we aren't", "Policies", "History", "What you can do", "Donate"]
+
+//  note that this must be in every js page that is created. 
+
+var topBar = [{ text: "", call: ""},
+              { text: "Who we are", call: "about"},
+              { text: "Who we aren't", call: "no"},
+              { text: "Policies", call: "policies"},
+              { text: "History", call: "history"},
+              { text: "What you can do", call: "you"},
+              { text: "Donate", call: "donate"}]
+    
+    
+    
+    
+    
+    
+
 
 var main = function()
 {
@@ -13,11 +29,24 @@ var main = function()
         
         
         
-        return d
+        return d.text
         
         
     })
+    
+    
+    
+    
+    d3.select("#title").on("click", function(){
         
+        
+        location.href = "index.html"
+        
+        
+        
+        
+        
+    })
         
         /*.attr("href", function(d){
         
