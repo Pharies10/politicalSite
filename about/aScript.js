@@ -32,6 +32,13 @@ var main = function()
         return d.text
         
         
+    }).on("click", function(l){
+        
+        location.href = "../"+ l.call + "/" + l.call + ".html"
+        
+        
+        
+        
     })
     
     
