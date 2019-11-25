@@ -32,9 +32,9 @@ var main = function()
         return d.text
         
         
-    }).on("click", function(l){
+    }).attr("href", function(l){
         
-        location.href =  l.call + "/" + l.call + ".html"
+        return l.call + "/" + l.call + ".html"
         
         
         
