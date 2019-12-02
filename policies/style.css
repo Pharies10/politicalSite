@@ -65,3 +65,46 @@ a
     
     
 }
+
+
+
+
+#btnHolder
+{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 15%;
+    height: 80%;
+    display: inline-block;
+    margin: 0px;
+    background-color: aqua;
+    
+    
+    
+    
+    
+}
+
+.info
+{
+
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+    
+    background-color: red;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+

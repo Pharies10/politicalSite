@@ -27,7 +27,7 @@
     bottom: 0px;
     width: 100%;
     height: 80%;
-    background-color: saddlebrown;
+    background-color: ghostwhite;
   
     overflow: auto;
 }
@@ -65,3 +65,49 @@ a
     
     
 }
+#header
+{
+    font-style: italic;
+    text-transform: capitalize;
+    
+    text-align: center;
+    font-size: 30pt;
+    background-color: ghostwhite;
+    padding: 50px;
+    
+}
+
+#ex
+{
+    
+    
+        
+   
+    
+    text-align: center;
+    font-size: 30pt;
+    background-color: ghostwhite;
+    padding: 100px;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

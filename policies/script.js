@@ -62,3 +62,11 @@ var main = function()
     
 }
 main()
+
+
+
+
+
+
+
+var buttons = [{call:"eco", name:"Economic"}]
