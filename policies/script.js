@@ -69,4 +69,56 @@ main()
 
 
 
-var buttons = [{call:"eco", name:"Economic"}]
+var buttons = [{call:"eco", name:"Economic"},
+              {call:"gun", name:"Gun Check"}]
+
+var makeBtn = function()
+{
+    
+    d3.select("#btnHolder")
+        .append("div").style("text-align", "center").style("color", "black").style("height", 100 +'px').style("width", 100 +'%')
+        .text("Click on a Policy").style("font-size", 25+"pt").style("margin-top", 20+"px").style("margin-bottom", 20+"px")
+        .selectAll("div")
+        .data(buttons)
+        .enter()
+        .append("div")
+        .append("button")
+        .attr("class", "btn")
+        .text(function(d){
+        
+        return d.name
+        
+        
+    }).on("click", function(d){
+        
+        for (items in buttons)
+        {
+            d3.select("#" + buttons[items].call).style("visibility", "hidden")
+            
+            
+        }
+        
+       
+        d3.select("#" + d.call).style("visibility", "visible")
+        
+        
+        
+        
+    })
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+makeBtn()
+
+
+
+
+

@@ -64,3 +64,168 @@ a
     
     
 }
+
+
+.picHolder
+{
+    
+    width: 100%;
+    height: 400px;
+    background-color: purple;
+    
+    
+    
+    
+    
+    
+}
+
+
+#rDetail
+{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    
+    
+    
+    
+    
+    
+}
+#dDetail
+{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    
+    
+    
+    
+    
+    
+}
+
+#werNotr
+{
+    width: 100%;
+    height: 290px;
+    
+    text-align: center;
+    background-color: whitesmoke;
+    color: indianred;
+    padding-top: 20px;
+    font-size: 40pt;
+    
+    
+    
+    
+    
+}
+#werNotd
+{
+    width: 100%;
+    height: 290px;
+    
+    text-align: center;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    padding-top: 20px;
+    font-size: 40pt;
+    
+    
+    
+    
+    
+}
+.pic
+{
+
+    width: 20%;
+    height: 100%;
+
+    background-color: aliceblue;
+    display: inline-block;
+
+    float: left;
+}
+
+
+
+#trump
+{
+
+    background: url("trump.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#mcConnel
+{
+
+    background: url("mcconnel.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#sean
+{
+
+    background: url("sean.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+#sara
+{
+
+    background: url("sara.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#newt
+{
+
+    background: url("newt.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+
+
+
+
+#hill
+{
+
+    background: url("hill.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#bern
+{
+
+    background: url("bern.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#bill
+{
+
+    background: url("bill.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+#wes
+{
+
+    background: url("wes.jpeg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+#warren
+{
+
+    background: url("warren.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+

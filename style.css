@@ -186,7 +186,7 @@ a
     width: 25%;
     height: 100%;
     background-color: black;
-    background: url("about/trump.jpg") center center no-repeat; 
+    background: url("no/trump.jpg") center center no-repeat; 
     background-size: 100% 100%;
     animation-name: picMove;
     animation-duration: 30s;

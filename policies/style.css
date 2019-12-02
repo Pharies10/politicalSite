@@ -78,7 +78,7 @@ a
     height: 80%;
     display: inline-block;
     margin: 0px;
-    background-color: aqua;
+    background-color: antiquewhite;
     
     
     
@@ -94,7 +94,8 @@ a
     display: inline-block;
     float: right;
     
-    background-color: red;
+            background: url("diego.jpg") center center no-repeat; 
+    background-size: 100% 100%;
     
     
     
@@ -102,7 +103,78 @@ a
 }
 
 
+.display
+{
+    position: fixed;
+        
+    top: 20%;
+    right: 0px;
+    bottom: 0px;
+    width: 85%;
+    height: 80%;
+        background: url("diego.jpg") center center no-repeat; 
+    background-size: 100% 100%;
+    visibility: hidden;
+    overflow: auto;
+    
+    
+    
+}
+.btn
+{
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 20pt;
+    
+    
+    
+    
+    
+    
+}
 
+.btn:hover
+{
+    background-color: indianred;
+    color: white;
+    
+    
+    
+    
+    
+    
+}
+.topic
+{
+   
+    width: 80%;
+    height: 70px;
+    margin: 40px;
+    background-color: whitesmoke;
+    
+    text-align: center;
+    font-size: 50pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    
+    
+}
+
+.details
+{
+    
+    
+ 
+    width: 90%;
+    height: 100%;
+    margin: 40px;
+    background-color: whitesmoke;
+    
+    
+    
+}
 
 
 
