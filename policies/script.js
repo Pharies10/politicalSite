@@ -69,8 +69,10 @@ main()
 
 
 
-var buttons = [{call:"eco", name:"Economic"},
-              {call:"gun", name:"Gun Check"},
+var buttons = [
+    {call:"gun", name:"Gun Check"},
+    {call:"eco", name:"Economic"},
+              
               {call:"mental", name:"Mental Health"},
               {call:"for", name:"Foriegn Affairs"},
               {call:"gerry", name:"Gerrymandering"},

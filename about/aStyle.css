@@ -30,6 +30,7 @@
     background-color: red;
   
     overflow: auto;
+    background-color: antiquewhite;
 }
 
 #title
@@ -64,3 +65,28 @@ a
     
     
 }
+#quote
+{
+    text-align: center;
+    font-size: 50pt;
+    text-shadow: 2px 2px 4px #000000;
+    font-style:  italic;
+    color: white;
+
+    height: 50%;
+    background: url("quote.png") center center no-repeat;
+    background-size: 100% 100%;
+    padding: 250px;
+    padding-top: 70px;
+
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
