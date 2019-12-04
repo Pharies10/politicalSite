@@ -46,9 +46,10 @@ a
     width: 100%;
     background-color: indianred;
     font-size: 20pt;
-      cursor: pointer; 
+    cursor: pointer;
     
 }
+
 
 .nav
 {
@@ -73,26 +74,38 @@ a
     
     
 }
+
+
 #slogan
 {
     position: relative;
     text-shadow: 2px 2px 4px #000000;
     color: beige;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 50px;
+    
     font-size: 35pt;
-    animation-name: example;
-    animation-duration: 4s;
+
    
+    background: url("main/lionHead.png") center center no-repeat;
+    background-size: 45% 200%;
+    background-position: right;
     
-    
-    
+    animation-name: example;
+    animation-duration: 5s;
     
 }
+
 #logo
 {
-    width: 200px;
-    height: 200px;
+    
+   position: fixed;
+    top: -2.5%;
+    left: -4%;
+    width: 20%;
+    height: 25%;
+
+
     
     
     

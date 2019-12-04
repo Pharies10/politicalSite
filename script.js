@@ -44,7 +44,7 @@ var main = function()
     
     
     
-    d3.select("#title").on("click", function(){
+    d3.select("#title").select("img").on("click", function(){
         
         
         location.href = "index.html"

@@ -33,6 +33,22 @@
   
     overflow: auto;
 }
+#logo
+{
+    
+   position: fixed;
+    top: -2.5%;
+    left: -4%;
+    width: 20%;
+    height: 25%;
+
+    
+
+    
+    
+    
+    
+}
 
 #title
 {
@@ -114,7 +130,7 @@ h2
     background-color: ghostwhite;
     padding-bottom: 70px;
     padding-top: 20px;
-    
+     overflow: auto;
 }
 
 
@@ -197,16 +213,23 @@ h2
     height: 100%;
     margin-left: 0%;
     font-size: 17pt;
- 
-    padding-left: 10px;
-  
+    float: right;
+    padding-right: 7%;
+    overflow: auto;
     display: inline-block;
     
   padding-bottom: 20px;
     
 }
 
-
+h3
+{
+    
+    margin-top: 0px;
+    
+    
+    
+}
 
 
 

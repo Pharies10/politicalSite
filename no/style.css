@@ -56,6 +56,22 @@
     
     
 }
+#logo
+{
+    
+   position: fixed;
+    top: -2.5%;
+    left: -4%;
+    width: 20%;
+    height: 25%;
+
+    
+
+    
+    
+    
+    
+}
 a
 {
     
@@ -84,7 +100,7 @@ a
 #rDetail
 {
     width: 100%;
-    height: 400px;
+    height: 40%;
     background-color: red;
     
     
@@ -96,7 +112,7 @@ a
 #dDetail
 {
     width: 100%;
-    height: 400px;
+    height: 40%;
     background-color: blue;
     
     
@@ -109,33 +125,53 @@ a
 #werNotr
 {
     width: 100%;
-    height: 290px;
+    height: 29%;
     
-    text-align: center;
+ 
     background-color: whitesmoke;
     color: indianred;
-    padding-top: 20px;
+  
     font-size: 40pt;
     
+    overflow: auto;
     
     
     
+}
+#werNotr h1
+{
+
+      margin: 0px;
+    margin-top: 2%;
+     margin-left: 5%;
+ 
+   
     
 }
 #werNotd
 {
     width: 100%;
-    height: 290px;
+    height: 29%;
     
-    text-align: center;
+   
     background-color: whitesmoke;
     color: dodgerblue;
-    padding-top: 20px;
+    
     font-size: 40pt;
     
+     
+    overflow: auto;
     
     
-    
+}
+#werNotd h1
+{
+
+    margin: 0px;
+    margin-top: 2%;
+     margin-left: 5%;
+ 
+   
     
 }
 .pic
