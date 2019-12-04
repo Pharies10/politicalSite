@@ -175,6 +175,21 @@ h2
 }
 
 
+#corPic
+{
+    
+    width: 15%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: turquoise;
+    display: inline-block;
+    background: url("pics/Kora.png") center center no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+
+
 #text
 {
     
