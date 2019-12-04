@@ -111,7 +111,7 @@ a
     height: 70%;
     
     
-    background: url("/main/lion.png") center center no-repeat;
+    background: url("../main/lion.png") center center no-repeat;
     background-position: right;
     background-size: 45% 100%;
     
