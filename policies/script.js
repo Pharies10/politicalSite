@@ -71,12 +71,11 @@ main()
 
 var buttons = [
     {call:"gun", name:"Gun Check"},
-    {call:"eco", name:"Economic"},
-              
-              {call:"mental", name:"Mental Health"},
-              {call:"for", name:"Foriegn Affairs"},
-              {call:"gerry", name:"Gerrymandering"},
-               {call:"abort", name:"Abortion"}]
+    {call:"abort", name:"Abortion"},
+    {call:"for", name:"Foriegn Policy"},
+    {call:"eco", name:"Economic Policy"},
+    {call:"mental", name:"Marijuana"},
+    {call:"enviro", name:"Enviroment"}]
 
 
 var makeBtn = function()
